@@ -27,7 +27,7 @@ curl -o spark-3.0.1-bin-hadoop2.7.tgz  https://downloads.apache.org/spark/spark-
 tar -xvf spark-3.0.1-bin-hadoop2.7.tgz
 
 # rename directory
-mv spark-3.0.1-bin-hadoop2.7.tgz spark
+mv spark-3.0.1-bin-hadoop2.7 spark
 
 # Install pyspark
 sudo pip3 install pyspark
